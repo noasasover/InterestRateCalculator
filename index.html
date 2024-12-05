@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Compound Interest Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Compound Interest Calculator</h1>
+    </header>
+    <form>
+      <p>Principal <input id="principal" type="number" min="0" /></p>
+      <p>
+        Interest Rate (%)
+        <input id="interest_rate" type="number" step="0.01" min="0" max="100" />
+      </p>
+      <p>
+        Compounds Per Year
+        <input id="compounds_per_year" type="number" step="1" min="1" />
+      </p>
+      <p>Total Years <input id="total_years" type="number" min="1" /></p>
+    </form>
+    <section>
+      <p>Amount Earned: <output id="amount_earned">0.00</output></p>
+      <p>Total Amount: <output id="total_amount">0.00</output></p>
+    </section>
+    <div>
+      <img
+        src="https://access-wealth.com/wp-content/uploads/2022/03/rising-interest-rates.jpeg"
+        alt="Rising Interest Rates"
+        width="128"
+        height="128"
+      />
+      <img
+        src="https://cdn.mos.cms.futurecdn.net/jjpKPiYyhbC7dWTA2psy9V.jpg"
+        alt="Economic Graph"
+        width="128"
+        height="128"
+      />
+      <img
+        src="https://www.lendio.com/wp-content/uploads/2019/04/confused-interest-rates-e1690919844871-800x535.jpg"
+        alt="Confused Man with Interest Rates"
+        width="128"
+        height="128"
+      />
+      <img
+        src="https://fortune.com/img-assets/wp-content/uploads/2023/05/Recommends_average_savings_account_interest.jpg"
+        alt="Average Savings Account Interest"
+        width="128"
+        height="128"
+      />
+    </div>
+    <footer>
+      <a
+        href="https://codesandbox.io/p/sandbox/hw1-r66kyr?file=%2Findex.html%3A74%2C38"
+      >
+        Code Sandbox repo link:
+      </a>
+    </footer>
+  </body>
+</html>

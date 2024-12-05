@@ -1,0 +1,15 @@
+{
+  "name": "Interest Rate Calculator",
+  "version": "1.0.0",
+  "description": "A simple webb app for computing Interest Rate",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve"
+  },
+  "keywords": ["html", "css"],
+  "author": "Ives van Hoorne",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "11.2.0"
+  }
+}

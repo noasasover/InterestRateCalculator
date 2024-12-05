@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(162, 208, 219);
+  height: 100vh;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: "Protest Guerrilla", "Gill Sans";
+  background-image: linear-gradient(
+    rgb(45, 40, 194),
+    rgb(59, 107, 190),
+    rgb(89, 152, 173),
+    lightblue
+  );
+  color: white;
+  text-align: center;
+  padding: 30px;
+  margin: 0px;
+  border: 5px solid navy;
+  text-shadow: 5px 5px 2px black;
+  animation: title-spin 1s linear;
+  transition: scale 3s;
+  .protest-guerrilla-regular {
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+}
+
+@keyframes title-spin {
+  0% {
+    rotate: 0deg;
+    transform: translate(400px, 0);
+  }
+  50% {
+    rotate: 360deg;
+  }
+  100% {
+    rotate: 720deg;
+    transform: translate(0);
+  }
+}
+
+h1:hover {
+  scale: 2;
+}
+
+h2 {
+  margin: 10px;
+  font-family: "Protest Guerrilla", sans-serif;
+  color: rgb(30, 19, 191);
+  text-shadow: 2px 1px 1px rgb(255, 255, 255);
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+  padding: 30px;
+  margin: 0 auto;
+  width: 400px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 10px;
+}
+
+section {
+  font-family: "Protest Guerrilla", sans-serif;
+  width: 400px;
+  border: 5px solid navy;
+  background-color: rgb(115, 152, 184);
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 10px;
+  margin: 0 auto;
+}
+
+div {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  margin-top: 30px;
+  padding: 20px;
+  font-size: 30px;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  font-family: "Times New Roman", Times, serif;
+  background-color: lightskyblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer a {
+  color: rgb(231, 240, 245); /* Change link color */
+}
+
+footer a:visited {
+  color: gray; /* Change color of visited links */
+}
